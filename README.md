@@ -20,7 +20,7 @@ The dataset used for this study contains 121 outbreak records from Gujarat extra
 • Number of reported cases and deaths
 • Dates marking the start of the outbreak and its reporting
 • Associated temperature data
-![Top Diseases by Cases](figures/Data.png)
+![Disease Data](Figures/Data.png)
 
 
 To improve analytical depth, additional features were derived, including outbreak duration, case fatality rate (CFR), and reporting month and year.
