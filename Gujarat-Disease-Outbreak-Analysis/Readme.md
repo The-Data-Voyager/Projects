@@ -20,7 +20,10 @@ The dataset used for this study contains 121 outbreak records from Gujarat extra
 • Number of reported cases and deaths
 • Dates marking the start of the outbreak and its reporting
 • Associated temperature data
+
+
 ![Top Diseases by Total Cases](Figures/Data.png)
+
 
 
 To improve analytical depth, additional features were derived, including outbreak duration, case fatality rate (CFR), and reporting month and year.
@@ -30,35 +33,69 @@ Key epidemiological indicators were calculated:
 • Case Fatality Rate (CFR) as deaths per 100 cases
 • Outbreak duration as the time between outbreak start and reporting
 The data was aggregated at disease, district, and monthly levels. Visualizations were created using Python libraries such as Pandas, Matplotlib, and Seaborn, with a strong emphasis on clarity and interpretability.
+
 Disease Burden Analysis
+
+![Top Diseases by Total Cases](Figures/top_diseases_cases.png)
+
+
 The analysis shows that disease burden is highly concentrated. A small number of diseases account for the majority of reported cases.
 Acute Diarrheal Disease emerges as the most significant contributor, followed by Cholera and Food Poisoning.
 
 However, severity tells a different story. Some diseases with fewer cases exhibit much higher fatality rates.
 Acute Encephalitic Syndrome shows the highest average CFR, highlighting that public health risk is not solely driven by case volume.
+
+
 Geographic Hotspot Analysis
+
+![Top Diseases by Total Cases](Figures/district_hotspots.png)
+
+
 Disease burden is unevenly distributed across districts. Districts such as Kheda, Gandhinagar, and Anand contribute a disproportionately large share of total cases.
 
 These patterns suggest the influence of localized factors such as population density, sanitation infrastructure, environmental conditions, or reporting efficiency. Targeted district-level interventions may therefore be more effective than uniform strategies.
+
+
 Outbreak Status Assessment
+
+![Top Diseases by Total Cases](Figures/Disease_control_status.png)
+
 Outbreaks were classified as either “Under Control” or “Under Surveillance.”
 Certain diseases show a higher proportion of ongoing surveillance cases, indicating longer outbreak durations or slower containment.
 
 This highlights differences in control effectiveness across diseases and emphasizes the need for disease-specific response strategies.
+
+
 Temporal Analysis
+
+![Top Diseases by Total Cases](Figures/monthly_trend.png)
+
 Monthly trends reveal clear seasonality in disease occurrence. Case counts peak during specific months, suggesting strong links with seasonal factors such as rainfall, temperature, and water quality.
 
 While most outbreaks are reported within a short time frame, a noticeable tail of delayed reporting exists. Such delays can weaken outbreak response and control efforts, underscoring the importance of strengthening surveillance and early detection systems.
+
 Environmental Analysis: Temperature
+
+![Top Diseases by Total Cases](Figures/temperature_scatter.png)
+
 When focusing on high-burden diseases, clearer patterns emerge between temperature and case counts. A majority of cases cluster within specific temperature ranges.
+
+![Top Diseases by Total Cases](Figures/temperature_boxplot.png)
+
 
 Temperature distribution analysis shows that most outbreaks occur when temperatures lie between 25°C and 35°C. While this does not imply causation, it suggests a climatic window of elevated risk for disease outbreaks in Gujarat.
 
 Key Insights
 • Disease burden is concentrated among a few diseases and districts
 • High-fatality diseases require clinical prioritization despite lower case counts
+
+![Top Diseases by Total Cases](Figures/top_diseases_cfr.png)
+
+
 • Seasonal trends play a significant role in outbreak occurrence
 • Reporting delays can reduce response effectiveness
+
+![Top Diseases by Total Cases](Figures/reporting_delay.png)
 
 • Temperature appears to influence outbreak intensity within certain ranges
 Limitations
